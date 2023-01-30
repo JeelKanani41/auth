@@ -24,7 +24,8 @@ mongoose
     useCreateIndex: true,
   })
   .then((result) => app.listen(8000,()=>{
-    console.log("starting....");
+    console.log("server  starting....");
+	  
   }))
   .catch((err) => console.log(err));
 
